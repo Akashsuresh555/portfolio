@@ -1,0 +1,107 @@
+/* Importing Poppins Font */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap");
+
+/* RESET & GLOBAL STYLES */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: #f5f5f5;
+  color: #333;
+  padding: 20px;
+  scroll-behavior: smooth;
+}
+
+/* HEADER */
+header {
+  background-color: #333;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  transition: background-color 0.3s ease;
+}
+
+header:hover {
+  background-color: #444;
+}
+
+h1, h2 {
+  margin-bottom: 10px;
+}
+
+/* PARAGRAPHS */
+p {
+  margin: 10px 0;
+  font-size: 18px;
+  color: rgb(85, 85, 85);
+}
+
+/* BUTTONS */
+.btn {
+  display: inline-block;
+  padding: 10px 20px;
+  border-radius: 25px;
+  border: 2px solid #333;
+  background-color: white;
+  color: #333;
+  font-weight: 600;
+  transition: all 300ms ease;
+}
+
+.btn:hover {
+  background-color: #333;
+  color: white;
+  border-color: #fff;
+}
+
+/* CONTACT SECTION */
+#contact {
+  background-color: white;
+  padding: 20px;
+  margin: 20px auto;
+  border-radius: 16px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  max-width: 600px;
+  text-align: center;
+  transition: transform 0.3s ease;
+}
+
+#contact:hover {
+  transform: translateY(-10px);
+}
+
+/* FOOTER */
+footer {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 10px 0;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  height: 10vh;
+  font-size: 14px;
+  transition: background-color 0.3s ease;
+}
+
+footer:hover {
+  background-color: #444;
+}
+
+/* LINKS */
+a {
+  color: black;
+  text-decoration: none;
+  transition: color 0.3s ease, text-decoration-color 0.3s ease;
+}
+
+a:hover {
+  color: grey;
+  text-decoration: underline;
+  text-decoration-color: rgb(181, 181, 181);
+  text-underline-offset: 0.3rem;
+}
